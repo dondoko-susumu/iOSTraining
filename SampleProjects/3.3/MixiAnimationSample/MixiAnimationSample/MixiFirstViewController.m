@@ -37,16 +37,22 @@ static CGRect const kOjisanMovedFrame = {{150, 416}, {170, 170}};
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    /*
+    [UIView animateWithDuration:1.5f animations:^{
+        
+    }]
+     */
+    
     [UIView animateWithDuration:1.5f
                           delay:0
-                        options:UIViewAnimationOptionCurveEaseIn
+                        options:UIViewAnimationOptionAutoreverse
                      animations:^{
                          [_ojisanImageView setFrame:kOjisanMovedFrame];
                      } completion:^(BOOL finished) {
                          // 実行後に何かアクションをする際はここに記述する
-//                         [UIView animateWithDuration:1.5f animations:^{
-//                             [_ojisanImageView setFrame:kOjisanInitialFrame];
-//                         }];
+                         [UIView animateWithDuration:1.5f animations:^{
+                             [_ojisanImageView setFrame:kOjisanInitialFrame];
+                         }];
                      }];
 
 }

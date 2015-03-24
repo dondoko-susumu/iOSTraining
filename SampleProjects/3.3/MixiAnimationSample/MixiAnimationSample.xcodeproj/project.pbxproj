@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A44B361AB1A8FD0084ABC9 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A44B341AB1A8FD0084ABC9 /* third.png */; };
+		15A44B371AB1A8FD0084ABC9 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A44B351AB1A8FD0084ABC9 /* third@2x.png */; };
 		38DD0CD01724427400B5F1E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD0CCF1724427400B5F1E4 /* UIKit.framework */; };
 		38DD0CD21724427400B5F1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD0CD11724427400B5F1E4 /* Foundation.framework */; };
 		38DD0CD41724427400B5F1E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD0CD31724427400B5F1E4 /* CoreGraphics.framework */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15A44B341AB1A8FD0084ABC9 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		15A44B351AB1A8FD0084ABC9 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
 		38DD0CCC1724427400B5F1E4 /* MixiAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixiAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DD0CCF1724427400B5F1E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38DD0CD11724427400B5F1E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +120,8 @@
 				38DD0CEF1724427400B5F1E4 /* MixiSecondViewController.m */,
 				38DD0CF81724427400B5F1E4 /* MixiSecondViewController.xib */,
 				38DD0D0417244A1E00B5F1E4 /* MixiThirdViewController.h */,
+				15A44B341AB1A8FD0084ABC9 /* third.png */,
+				15A44B351AB1A8FD0084ABC9 /* third@2x.png */,
 				38DD0D0517244A1E00B5F1E4 /* MixiThirdViewController.m */,
 				38DD0D0617244A1E00B5F1E4 /* MixiThirdViewController.xib */,
 				38DD0D001724429F00B5F1E4 /* ojisan.png */,
@@ -194,12 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38DD0CDA1724427400B5F1E4 /* InfoPlist.strings in Resources */,
+				15A44B361AB1A8FD0084ABC9 /* third.png in Resources */,
 				38DD0CE21724427400B5F1E4 /* Default.png in Resources */,
 				38DD0CE41724427400B5F1E4 /* Default@2x.png in Resources */,
 				38DD0CE61724427400B5F1E4 /* Default-568h@2x.png in Resources */,
 				38DD0CEB1724427400B5F1E4 /* first.png in Resources */,
 				38DD0CED1724427400B5F1E4 /* first@2x.png in Resources */,
 				38DD0CF21724427400B5F1E4 /* second.png in Resources */,
+				15A44B371AB1A8FD0084ABC9 /* third@2x.png in Resources */,
 				38DD0CF41724427400B5F1E4 /* second@2x.png in Resources */,
 				38DD0CF71724427400B5F1E4 /* MixiFirstViewController.xib in Resources */,
 				38DD0CFA1724427400B5F1E4 /* MixiSecondViewController.xib in Resources */,
@@ -351,6 +359,7 @@
 				38DD0CFF1724427400B5F1E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
